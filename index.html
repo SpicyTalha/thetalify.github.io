@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Department Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Police Department Application Form</h1>
+        <form id="application-form" netlify>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="residence">Residence:</label>
+                    <input type="text" id="residence" name="residence" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="citizenship">Citizenship:</label>
+                    <input type="text" id="citizenship" name="citizenship" required>
+                </div>
+            </fieldset>
+
+            <!-- Other sections of the form -->
+<fieldset>
+    <legend>Medical and Physical Features</legend>
+    <div class="form-group">
+        <label for="height">Height (in cm):</label>
+        <input type="number" id="height" name="height" required>
+    </div>
+
+    <div class="form-group">
+        <label for="weight">Weight (in kg):</label>
+        <input type="number" id="weight" name="weight" required>
+    </div>
+
+    <div class="form-group">
+        <label for="medical-conditions">Do you have any Medical conditions that could affect your abilities?</label>
+        <input type="text" id="medical-conditions" name="medical-conditions" required>
+    </div>
+
+    <div class="form-group">
+        <label for="drug-exposure">Have you ever been exposed to drugs/Illegal substances?</label>
+        <input type="text" id="drug-exposure" name="drug-exposure" required>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>Background Check</legend>
+    <div class="form-group">
+        <label for="race">Race:</label>
+        <input type="text" id="race" name="race" required>
+    </div>
+
+    <div class="form-group">
+        <label for="education">List the names of College, University you've attended (With Major) [if any]:</label>
+        <textarea id="education" name="education" rows="3" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="employment-history">List your Employment History:</label>
+        <textarea id="employment-history" name="employment-history" rows="3" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="offer-to-department">What can you offer to this department (Minimum 50 Words):</label>
+        <textarea id="offer-to-department" name="offer-to-department" rows="5" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="reason-to-join">Why do you wish to join SAPD (Minimum 100 Words):</label>
+        <textarea id="reason-to-join" name="reason-to-join" rows="7" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="unique-skills">What makes you unique from others in terms of skills, passion etc?:</label>
+        <textarea id="unique-skills" name="unique-skills" rows="5" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="serve-protect">What - in your opinion - means to "serve and protect"?:</label>
+        <textarea id="serve-protect" name="serve-protect" rows="5" required></textarea>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>Licenses</legend>
+    <div class="form-group">
+        <label for="passport">Do you have a valid passport?</label>
+        <input type="text" id="passport" name="passport" required>
+    </div>
+
+    <div class="form-group">
+        <label for="licenses-held">List the Licenses you currently hold:</label>
+        <textarea id="licenses-held" name="licenses-held" rows="3" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="revoked-licenses">Have any of the licenses that you hold been previously revoked? If yes then why?</label>
+        <textarea id="revoked-licenses" name="revoked-licenses" rows="3" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="dui">Have you ever been caught under DUI? (Driving Under Influence):</label>
+        <input type="text" id="dui" name="dui" required>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>Criminal Background</legend>
+    <div class="form-group">
+        <label for="minor-offence">Have you ever been convicted of a minor offence?</label>
+        <input type="text" id="minor-offence" name="minor-offence" required>
+    </div>
+
+    <div class="form-group">
+        <label for="misdemeanor-offence">Have you ever been convicted of a misdemeanor offence?</label>
+        <input type="text" id="misdemeanor-offence" name="misdemeanor-offence" required>
+    </div>
+
+    <div class="form-group">
+        <label for="felony-offence">Have you ever been convicted of a felony offence?</label>
+        <input type="text" id="felony-offence" name="felony-offence" required>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>OOC Information</legend>
+    <div class="form-group">
+        <label for="discord-id">Discord ID:</label>
+        <input type="text" id="discord-id" name="discord-id" required>
+    </div>
+
+    <div class="form-group">
+        <label for="ooc-age">Age:</label>
+        <input type="number" id="ooc-age" name="ooc-age" required>
+    </div>
+
+    <div class="form-group">
+        <label for="country-timezone">Country & Timezone:</label>
+        <input type="text" id="country-timezone" name="country-timezone" required>
+    </div>
+
+    <div class="form-group">
+        <label for="microphone">Are you able to use microphone?</label>
+        <input type="text" id="microphone" name="microphone" required>
+    </div>
+
+    <div class="form-group">
+        <label for="stats-screenshot">Provide an unedited screenshot of your stats in-game:</label>
+        <input type="file" id="stats-screenshot" name="stats-screenshot" required>
+    </div>
+
+    <div class="form-group">
+        <label for="factions">What factions were you apart of?</label>
+        <input type="text" id="factions" name="factions" required>
+    </div>
+</fieldset>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

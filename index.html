@@ -96,11 +96,13 @@
     <div class="form-group">
         <label for="offer-to-department">What can you offer to this department (Minimum 50 Words):</label>
         <textarea id="offer-to-department" name="offer-to-department" rows="5" required></textarea>
+        <span id="word-count-display" class="word-count">0 words</span>
     </div>
 
     <div class="form-group">
-        <label for="reason-to-join">Why do you wish to join SAPD (Minimum 100 Words):</label>
+        <label for="reason-to-join">Why do you wish to join SAPD (Minimum 70 Words):</label>
         <textarea id="reason-to-join" name="reason-to-join" rows="7" required></textarea>
+        <span id="word-count-display" class="word-count">0 words</span>
     </div>
 
     <div class="form-group">
@@ -140,17 +142,17 @@
 <fieldset>
     <legend>Criminal Background</legend>
     <div class="form-group">
-        <label for="minor-offence">Have you ever been convicted of a minor offence?</label>
+        <label for="minor-offence">Have you ever been convicted of a minor offence? (If yes, state reason.)</label>
         <input type="text" id="minor-offence" name="minor-offence" required>
     </div>
 
     <div class="form-group">
-        <label for="misdemeanor-offence">Have you ever been convicted of a misdemeanor offence?</label>
+        <label for="misdemeanor-offence">Have you ever been convicted of a misdemeanor offence? (If yes, state reason.)</label>
         <input type="text" id="misdemeanor-offence" name="misdemeanor-offence" required>
     </div>
 
     <div class="form-group">
-        <label for="felony-offence">Have you ever been convicted of a felony offence?</label>
+        <label for="felony-offence">Have you ever been convicted of a felony offence? (If yes, state reason.)</label>
         <input type="text" id="felony-offence" name="felony-offence" required>
     </div>
 </fieldset>

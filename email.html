@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Police Department Application Form Submission</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>New Police Department Application Form Submission</h2>
+        <table>
+            <tr>
+                <th>Section</th>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td rowspan="7">Personal Information</td>
+                <td>Name</td>
+                <td>{{fields.name}}</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>{{fields.age}}</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>{{fields.dob}}</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>{{fields.gender}}</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>{{fields.phone}}</td>
+            </tr>
+            <tr>
+                <td>Residence</td>
+                <td>{{fields.residence}}</td>
+            </tr>
+            <tr>
+                <td>Citizenship</td>
+                <td>{{fields.citizenship}}</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Medical and Physical Features</td>
+                <td>Height (in cm)</td>
+                <td>{{fields.height}}</td>
+            </tr>
+            <tr>
+                <td>Weight (in kg)</td>
+                <td>{{fields.weight}}</td>
+            </tr>
+            <tr>
+                <td>Medical conditions affecting abilities</td>
+                <td>{{fields.medical-conditions}}</td>
+            </tr>
+            <tr>
+                <td>Exposure to drugs/Illegal substances</td>
+                <td>{{fields.drug-exposure}}</td>
+            </tr>
+            <tr>
+                <td rowspan="7">Background Check</td>
+                <td>Race</td>
+                <td>{{fields.race}}</td>
+            </tr>
+            <tr>
+                <td>Education</td>
+                <td>{{fields.education}}</td>
+            </tr>
+            <tr>
+                <td>Employment History</td>
+                <td>{{fields.employment-history}}</td>
+            </tr>
+            <tr>
+                <td>Offer to Department</td>
+                <td>{{fields.offer-to-department}}</td>
+            </tr>
+            <tr>
+                <td>Reason to Join SAPD</td>
+                <td>{{fields.reason-to-join}}</td>
+            </tr>
+            <tr>
+                <td>Unique Skills</td>
+                <td>{{fields.unique-skills}}</td>
+            </tr>
+            <tr>
+                <td>Serve and Protect</td>
+                <td>{{fields.serve-protect}}</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Licenses</td>
+                <td>Valid passport</td>
+                <td>{{fields.passport}}</td>
+            </tr>
+            <tr>
+                <td>Licenses held</td>
+                <td>{{fields.licenses-held}}</td>
+            </tr>
+            <tr>
+                <td>Revoked licenses</td>
+                <td>{{fields.revoked-licenses}}</td>
+            </tr>
+            <tr>
+                <td>DUI History</td>
+                <td>{{fields.dui}}</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Criminal Background</td>
+                <td>Convicted of minor offense</td>
+                <td>{{fields.minor-offence}}</td>
+            </tr>
+            <tr>
+                <td>Convicted of misdemeanor offense</td>
+                <td>{{fields.misdemeanor-offence}}</td>
+            </tr>
+            <tr>
+                <td>Convicted of felony offense</td>
+                <td>{{fields.felony-offence}}</td>
+            </tr>
+            <tr>
+                <td rowspan="6">OOC Information</td>
+                <td>Discord ID</td>
+                <td>{{fields.discord-id}}</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <
+                <td>{{fields.ooc-age}}</td>
+            </tr>
+            <tr>
+            <td>Country & Timezone</td>
+            <td>{{fields.country-timezone}}</td>
+            </tr>
+            <tr>
+            <td>Microphone Usage</td>
+            <td>{{fields.microphone}}</td>
+            </tr>
+            <tr>
+            <td>Stats Screenshot</td>
+            <td>{{fields.stats-screenshot}}</td>
+            </tr>
+            <tr>
+            <td>Factions</td>
+            <td>{{fields.factions}}</td>
+            </tr>
+            </table>
+            </div>
+            </body>
+            </html>
+            
